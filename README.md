@@ -28,3 +28,11 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+<img src="django-botes-app-ss/notes-app-cli-output.PNG" alt="notes-app-docker-cli" width="400"/>
+
+<img src="django-botes-app-ss/notes-app-gui-output.PNG" alt="notes-app-docker-cli" width="400"/>
+
+
+
+
