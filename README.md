@@ -1,18 +1,30 @@
-# 📝 Django Notes App with Docker Compose
+# Simple Notes App for TWS Community
+This is a simple notes app built with React and Django.
 
-This project sets up a Django-based Notes application using **Docker Compose** with the following services:
+## Requirements
+1. Python 3.9
+2. Node.js
+3. React
 
-- **Django** (Backend API)
-- **MySQL** (Relational Database)
-- **Nginx** (Reverse Proxy and Static Files Server)
+## Installation
+1. Clone the repository
+```
+git clone https://github.com/LondheShubham153/django-notes-app.git
+```
 
----
+2. Build the app
+```
+docker build -t notes-app .
+```
 
-## 📦 Tech Stack
+3. Run the app
+```
+docker run -d -p 8000:8000 notes-app:latest
+```
 
-- **Python 3** / **Django**
-- **MySQL 5.7**
-- **Nginx**
-- **Docker & Docker Compose**
+## Nginx
 
----
+Install Nginx reverse proxy to make this application available
+
+`sudo apt-get update`
+`sudo apt install nginx`
